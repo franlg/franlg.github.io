@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/1a/cc/ce/1accce243a827f15e2ef4b69ecfc1ee4.jpg");
+}
+
+.collapsible {
+    background-color: #ffdb4d;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 10%;
+    border: 2px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+#raids, #coliseums {
+    display: none;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%; 
+}
+
+li{
+    background-color: transparent;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    max-width:100%;
+    width:auto;
+    height:auto;
+    background-color: transparent;
+}
+
+.stats {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: solid 3px #900;
+}
+
+td,th {
+    text-align: right;
+}
+
