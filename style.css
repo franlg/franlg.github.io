@@ -9,11 +9,12 @@ body{
     color: black;
     cursor: pointer;
     padding: 1%;
+    max-width: 30%;
     width: 10%;
     border: 2px solid black;
     text-align: left;
     outline: none;
-    font-size: 90%;
+    font-size: 1em;
     margin-bottom: 1em;
     
 }
