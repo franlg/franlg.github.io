@@ -8,8 +8,7 @@ x.style.display = "none";
 function toggleRaids() {
     var x = document.getElementById("raids");
     if (x.style.display === "none") {
-        x.style.display = "inline";
-        x.style.backgroundColor = "#ffdb4d";
+        x.style.display = "block";
     } else {
         x.style.display = "none";
     }
